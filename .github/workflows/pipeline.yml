@@ -25,5 +25,5 @@ jobs:
       run: terraform apply tfplan
       # Use 'terraform apply -auto-approve tfplan' if you want to auto-approve the apply
 
-    - name: Clean up
-      run: rm -rf .terraform tfplan
+    # - name: Clean up
+    #   run: rm -rf .terraform tfplan
